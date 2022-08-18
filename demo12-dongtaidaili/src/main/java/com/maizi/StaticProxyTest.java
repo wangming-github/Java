@@ -1,4 +1,4 @@
-package com.maizi.statics;
+package com.maizi;
 
 //接口定义要代理的事情
 interface ClothFactory {
