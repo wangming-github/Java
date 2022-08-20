@@ -8,10 +8,15 @@
     <artifactId>java-quick-start</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+
     <modules>
+        <!--泛型-->
+        <module>demo12-fanxing</module>
+        <!-- 反射（反射机制，类加载，动态代理，AOP）-->
+        <module>demo15-fanshe</module>
+        <module>demo16-java8</module>
         <module>demo-meiju-zhujie</module>
-        <module>demo11-fanshe</module>
-        <module>demo12-dongtaidaili</module>
 
     </modules>
 
@@ -20,6 +25,13 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.2</version>
+    </parent>
 
     <dependencyManagement>
         <dependencies>
